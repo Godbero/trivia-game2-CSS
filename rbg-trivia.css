@@ -1,0 +1,20 @@
+/* Explorer Web Development */
+/* Robert Godbey */
+/* August 18, 2024 */
+/* Trivia Game -- HTML & CSS Version */
+/* X */
+/* -- */
+
+/* The font-size below makes the Start text in the button larger */
+form { 
+  margin: 0 auto;
+  width: 50%;
+  height: 75%;
+  font-family:Arial;
+  color: white;
+  background-color: blue;
+}
+
+input {
+      font-size: 1.50em;
+}

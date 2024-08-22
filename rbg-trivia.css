@@ -13,8 +13,12 @@ form {
   font-family:Arial;
   color: white;
   background-color: blue;
+  text-align: center;
 }
 
 input {
-      font-size: 1.50em;
+  background-color: darkgray; 
+  border-color: black;
+  font-size: 1.50em;
 }
+

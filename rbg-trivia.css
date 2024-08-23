@@ -7,13 +7,14 @@
 
 /* The font-size below makes the Start text in the button larger */
 form { 
-  margin: 0 auto;
-  width: 50%;
-  height: 75%;
+  width: 700px;
+  border: 15px solid gray;
+  padding: 50px;
+  margin: auto;
+  text-align: center;
   font-family:Arial;
   color: white;
   background-color: blue;
-  text-align: center;
 }
 
 input {

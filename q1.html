@@ -1,7 +1,7 @@
 <!-- Explorer Web Development -->
 <!-- Robert Godbey -->
-<!-- July 28, 2024 -->
-<!-- Trivia Game -- HTML Only Version -->
+<!-- August 29, 2024 -->
+<!-- Trivia Game -- HTML-CSS Version -->
 <!-- Question 1 page of the game -->
 <!-- -->
 
@@ -13,35 +13,14 @@
   <meta http-equiv="X-UA-Compatible" content="chrome">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jack Schitt's Creek Trivia</title>
-  <style>
-    form { 
-    margin: 0 auto;
-    width: 50%;
-    height: 75%;
-    font-family:Arial;
-    color: white;
-    background-color: blue;
-    }
-
-    input {
-        font-size: 1.50em;
-    }
-
-    a:link, a:visited {
-    color: white;
-    text-decoration: none;
-    cursor: auto;
-    }
-  </style>
+  <link rel="stylesheet" href="rbg-trivia.css">
 </head>
+
 <body>
+  <div class="quiz-container">
     <form>
-      <h1>
-        <center>You Don't Know Jack Schitt's Creek</center>
-      </h1>
-      <p>
-        <h3>Question: Roland Checked into the hotel under what name?</h3>
-      </p>
+      <div class="quiz-header">You Don't Know Jack Schitt's Creek</div>
+      <div class="quiz-sub">Question: Roland Checked into the hotel under what name?</div>
       <ol type="A">
         <li><a href="q1a.html">Damon Steel </a></li>
         <br>
@@ -62,11 +41,10 @@
       </details>
       <br>
       <nav>
-        <Center>
-            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="../index.html" ><b>&#8678; Back</b></button>
-            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="../index.html"><b>Home/Restart</b></button>
-        </Center>
+        <button type="submit" formaction="index.html" ><b>&#8678; Back</b></button>
+        <button type="submit" formaction="index.html"><b>Home/Restart</b></button>
       </nav>
     </form>
+  </div>
 </body>
 </html>

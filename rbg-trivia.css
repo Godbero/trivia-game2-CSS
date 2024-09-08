@@ -39,6 +39,19 @@ body {
   text-align: left;
 }
 
+a:link {
+  color: white;
+  background-color: transparent;
+  text-align: left;
+  text-decoration: none;
+}
+
+a:hover {
+  color: gray;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 button {
   background-color: darkgray;
   border: none;

@@ -33,9 +33,10 @@ body {
   font-size: medium;
 }
 
-ol {
+.quiz-options {
   font-family: Arial, sans-serif;
   color: white;
+  text-align: left;
 }
 
 button {

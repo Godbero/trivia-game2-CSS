@@ -1,0 +1,77 @@
+<!-- Explorer Web Development -->
+<!-- Robert Godbey -->
+<!-- July 28, 2024 -->
+<!-- Trivia Game -- HTML Only Version -->
+<!-- Question 1 page of the game -->
+<!-- -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Schitt's Creek Trivia</title>
+  <style>
+    form { 
+    margin: 0 auto;
+    width: 50%;
+    height: 75%;
+    font-family:Arial;
+    color: white;
+    background-color: blue;
+    }
+
+    input {
+        font-size: 1.50em;
+    }
+
+    .highlight {
+      background-color: red;
+    }
+
+    a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    cursor: auto;
+    }
+  </style>
+</head>
+<body>
+    <form>
+      <h1>
+        <center>You Don't Know Jack Schitt's Creek</center>
+      </h1>
+      <p>
+        <h3>Question: Roland Checked into the hotel under what name?</h3>
+      </p>
+      <ol type="A">
+        <li><a href="../Q1/q1a.html">Damon Steel </a></li>
+        <br>
+        <li><a href="../Q1/q1b.html">Dustin Steel </a></li>
+        <br>
+        <li><a class="highlight" href="../Q1/q1c.html">Darren Steel </a></li>
+        <br>
+        <li><a href="../Q1/q1d.html">Damian Steel </a></li>
+        <br>
+      </ol>
+      <center><h3 class="highlight">Wrong!</h3></center>
+      <details>
+        <summary>Game Progress: <progress value="1" max="20"></progress></summary>
+        <ul>
+          <li>1 out of 20 questions answered.</li>
+          <li>0 out of 20 questions answered correctly.</li>
+        </ul>
+      </details>
+      <br>
+      <nav>
+        <Center>
+            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="../Q1/q1.html" ><b>&#8678; Back</b></button>
+            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="../index.html"><b>Home/Restart</b></button>
+            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="../Q2/q2-q1c.html"><b>Next &#8680;</b></button>
+        </Center>
+      </nav>
+    </form>
+</body>
+</html>

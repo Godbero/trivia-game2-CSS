@@ -2,9 +2,8 @@
 /* Robert Godbey */
 /* August 18, 2024 */
 /* Trivia Game -- HTML & CSS Version */
-/* X */
-/* -- */
 
+/* Set the default font, text color, etc. for the body */
 body {
   font-family: Arial, sans-serif;
   color: white;
@@ -16,6 +15,7 @@ body {
   margin: 0;
 }
 
+/* Position the quiz area */
 .quiz-container {
   background-color: blue;
   border-radius: 5px;
@@ -30,11 +30,10 @@ body {
 }
 
 .quiz-sub {
-  font-size: medium;
+  font-size: large;
 }
 
 .quiz-options {
-  font-family: Arial, sans-serif;
   color: white;
   text-align: left;
 }
@@ -42,7 +41,6 @@ body {
 a:link {
   color: white;
   background-color: transparent;
-  text-align: left;
   text-decoration: none;
 }
 
@@ -53,6 +51,7 @@ a:hover {
 }
 
 button {
+  font-weight: bold;
   background-color: darkgray;
   border: none;
   border-radius: 5px;

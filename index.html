@@ -18,13 +18,15 @@
 <!--The action attribute below in the form element creates the link to the 1st question -->
 <body>
   <div class="quiz-container">
-    <form action="q1.html" method="post">
+    <form>
       <div class="quiz-header">You Don't Know Jack Schitt's Creek</div>
       <br>
-      <div class="quiz-sub">Instructions: There are 20 questions. Select your answer, then click "next".</div>
+      <div class="quiz-sub">Instructions: There are 20 questions</div>
+      <br>
+      <div class="quiz-sub">Select your answer, then click "next"</div>
       <br>
       <!--The input element below makes the Start button and links to the 1st question -->
-      <button type="submit">Start!</button>
+      <button type="submit" formaction="Q1/q1.html">Start!</button>
     </form>
   </div>
 </body>

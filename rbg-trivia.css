@@ -65,8 +65,12 @@ a:hover {
   font-weight: bold;
 }
 
-.highlight {
+.redlight {
   background-color: red;
+}
+
+.greenlight {
+  background-color: green;
 }
 
 button {

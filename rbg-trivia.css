@@ -4,6 +4,7 @@
 /* Trivia Game -- HTML & CSS Version */
 
 /* Set the default font, text color, etc. for the body */
+
 body {
   font-family: Arial, sans-serif;
   color: white;
@@ -38,9 +39,9 @@ body {
   text-align: left;
 }
 
-a:link {
+a:any-link {
   color: white;
-  background-color: transparent;
+  /* background-color: transparent; */
   text-decoration: none;
 }
 
@@ -48,6 +49,24 @@ a:hover {
   color: gray;
   background-color: transparent;
   text-decoration: none;
+}
+
+.q-wrong {
+  color: white;
+  background-color: red;
+  text-align: center;
+  font-weight: bold;
+}
+
+.q-correct {
+  color: white;
+  background-color: green;
+  text-align: center;
+  font-weight: bold;
+}
+
+.highlight {
+  background-color: red;
 }
 
 button {
@@ -62,4 +81,3 @@ button {
 button:hover {
   background-color: gray;
 }
-

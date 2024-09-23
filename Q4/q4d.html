@@ -1,0 +1,54 @@
+<!-- Explorer Web Development -->
+<!-- Robert Godbey -->
+<!-- September 10, 2024 -->
+<!-- Trivia Game -- HTML-CSS Version -->
+<!-- Question 1 answer "C" page of the game -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Schitt's Creek Trivia</title>
+  <link rel="stylesheet" href="../rbg-trivia.css">
+</head>
+
+<body>
+  <div class="quiz-container">
+    <form>
+      <div class="quiz-header">You Don't Know Jack Schitt's Creek</div>
+      <br>
+      <div class="quiz-sub">At the Estate sale, what did John want to bid on?</div>
+      <div class="quiz-options">
+        <!-- Correct Answer for Q3 is Cuff Links -->
+        <!-- redlight flags option "d" as wrong answer --> 
+        <ol type="A">
+          <li><a href="../Q3/q3a.html">Cuff Links </a></li>
+          <br>
+          <li><a href="../Q3/q3b.html">Mattress </a></li>
+          <br>
+          <li><a href="../Q3/q3c.html">Golf Clubs </a></li>
+          <br>
+          <li><a class="redlight" href="../Q3/q3d.html">Vase </a></li>
+        </ol>
+        <div class="q-wrong"> Wrong! </div>
+        <br>
+      </div>
+      <details class="quiz-options">
+        <summary>Game Progress: <progress value="3" max="20"></progress></summary>
+        <ul>
+          <li>3 Out of 20 Questions Answered</li>
+        </ul>
+      </details>
+      <br>
+      <nav>
+        <button type="submit" formaction="../Q3/q3.html" >&#8678; Back</button>
+        <button type="submit" formaction="../index.html">Home/Restart</button>
+        <button type="submit" formaction="../Q4/q4.html">Next &#8680;</button>
+      </nav>
+    </form>
+  </div>
+</body>
+</html>

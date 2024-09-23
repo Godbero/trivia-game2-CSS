@@ -1,0 +1,54 @@
+<!-- Explorer Web Development -->
+<!-- Robert Godbey -->
+<!-- September 10, 2024 -->
+<!-- Trivia Game -- HTML-CSS Version -->
+<!-- Question 1 answer "B" page of the game -->
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jack Schitt's Creek Trivia</title>
+  <link rel="stylesheet" href="../rbg-trivia.css">
+</head>
+
+<body>
+  <div class="quiz-container">
+    <form>
+      <div class="quiz-header">You Don't Know Jack Schitt's Creek</div>
+      <br>
+      <div class="quiz-sub">At the Estate sale, what did John want to bid on?</div>
+      <div class="quiz-options">
+        <!-- Correct Answer for Q4 is Tennessee -->
+        <!-- greenlight flags option "b" as correct answer --> 
+        <ol type="A">
+          <li><a class="redlight" href="../Q4/q4a.html">Flower </a></li>
+          <br>
+          <li><a class="greenlight" href="../Q4/q4b.html">Tennessee </a></li>
+          <br>
+          <li><a href="../Q4/q4c.html">Maryland </a></li>
+          <br>
+          <li><a href="../Q4/q4d.html">Tallahassee </a></li>
+        </ol>
+        <div class="q-correct"> Correct! </div>
+        <br>
+      </div>
+      <details class="quiz-options">
+        <summary>Game Progress: <progress value="3" max="20"></progress></summary>
+        <ul>
+          <li>3 Out of 20 Questions Answered</li>
+        </ul>
+      </details>
+      <br>
+      <nav>
+        <button type="submit" formaction="../Q4/q4.html" >&#8678; Back</button>
+        <button type="submit" formaction="../index.html">Home/Restart</button>
+        <button type="submit" formaction="../Q5/q5.html">Next &#8680;</button>
+      </nav>
+    </form>
+  </div>
+</body>
+</html>

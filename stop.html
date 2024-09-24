@@ -1,7 +1,7 @@
 <!-- Explorer Web Development -->
 <!-- Robert Godbey -->
-<!-- July 28, 2024 -->
-<!-- Trivia Game -- HTML Only Version -->
+<!-- September 24, 2024 for CSS version -->
+<!-- Trivia Game -- HTML-CSS Version -->
 <!-- Stop Page -->
 <!-- -->
 
@@ -13,57 +13,42 @@
   <meta http-equiv="X-UA-Compatible" content="chrome">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jack Schitt's Creek Trivia</title>
-  <style>
-    form { 
-    margin: 0 auto;
-    width: 50%;
-    height: 75%;
-    font-family:Arial;
-    color: white;
-    background-color: blue;
-    }
-
-    input {
-        font-size: 1.50em;
-    }
-
-    .highlight {
-      background-color: red;
-    }
-
-    a:link, a:visited {
-    color: white;
-    text-decoration: none;
-    cursor: auto;
-    }
-  </style>
+  <link rel="stylesheet" href="../rbg-trivia.css">
 </head>
+
 <body>
+  <div class="quiz-container">
     <form>
-      <h1>
-        <center>You Don't Know Jack Schitt's Creek</center>
-      </h1>
-      <p>
-        <h3>Question: Who said "next step is to fold in the cheese"?</h3>
-      </p>
-      <!-- Correct Answer is Moira -->
-      <ol type="A">
-        <li><a>David </a></li>
+      <div class="quiz-header">You Don't Know Jack Schitt's Creek</div>
+      <br>
+      <div class="quiz-sub">Question: Who said "next step is to fold in the cheese"?</div>
+      <div class="quiz-options">
+        <!-- Correct Answer is Moira -->
+        <ol type="A">
+          <li><a>David </a></li>
+          <br>
+          <li><a>Alexis </a></li>
+          <br>
+          <li><a>Moira </a></li>
+          <br>
+          <li><a>Jake </a></li>
+          <br>
+        </ol>
+        <div class="q-wrong"> Stop Here! We have not linked more questions. </div>
         <br>
-        <li><a>Alexis </a></li>
-        <br>
-        <li><a>Moira </a></li>
-        <br>
-        <li><a>Jake </a></li>
-        <br>
-      </ol>
-      <center><h3 class="highlight">Stop Here! We have not linked more questions.</h3></center>
+      </div>
+      <details class="quiz-options">
+        <summary>Game Progress: <progress value="5" max="20"></progress></summary>
+        <ul>
+          <li>5 Out of 20 Questions Answered</li>
+        </ul>
+      </details>
       <br>
       <nav>
-        <Center>
-            <button style="background-color: darkgray; border-color: black;" type="submit" formaction="index.html"><b>Home/Restart</b></button>
-        </Center>
+        <button type="submit" formaction="../Q5/q5.html" >&#8678; Back</button>
+        <button type="submit" formaction="../index.html">Home/Restart</button>
       </nav>
     </form>
+  </div>
 </body>
 </html>
